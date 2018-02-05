@@ -4,12 +4,16 @@ body{
 }
 header{
     text-align: center;
+    background-color: #0051BB;
 }
 h2{
     margin: 0;
 }
 h3{
     margin-top: 0;
+}
+h3.h3-home{
+    margin-top: 18px;
 }
 
 h2:first-child{
@@ -18,7 +22,8 @@ h2:first-child{
 }
 
 header h1{
-    margin-top: 4px;
+    margin: 4px 0 0 0;
+    padding-bottom: 25px;
     font-size: 38px;
 }
 
