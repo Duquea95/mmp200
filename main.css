@@ -10,13 +10,13 @@ header{
 }
 a#logo-style{
     display: inline-block;
-    padding-top: 15px;
+    padding: 15px 0;
 }
 a:visited{
     color: blue;
 }
 h3{
-    margin-top: 0;
+    margin-top: 15px;
 }
 h3.h3-home{
     margin: 18px 0 0 0;
@@ -28,15 +28,12 @@ h2:first-child{
 }
 
 header h1{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding-bottom: 10px;
     font-size: 2.2em;
     color: white;
 }
 
-/* h2 a{
-    color: rgba(83, 205, 179, 1);
-} */
 nav{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -60,9 +57,12 @@ li.main-nav{
     display: inline-block;
     padding: 12px 13px;
     font-size: 18px;
+    font-weight: bolder;
 }
 img{
-    width: 100%;
+    display: block;
+    /* width: 100%; */
+    margin: 0 auto;
 }
 div#info-div{
     padding: 5px 0;
@@ -77,10 +77,10 @@ li.content-li{
  padding-top: 0;
  margin: 0 17px;
  list-style: initial;
+ font-size: 18px;
 }
 
 footer{
 text-align: center;
-/* background-color: #6E4800; */
 background-color:rgba(0,0,0,.2);
 }
