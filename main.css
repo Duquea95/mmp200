@@ -1,5 +1,7 @@
-body{
+body,h2,ul,p.footer-text, header h1{
     margin: 0;
+}
+body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -8,13 +10,10 @@ header{
 }
 a#logo-style{
     display: inline-block;
-    /* margin-left: 20px; */
+    padding-top: 15px;
 }
 a:visited{
     color: blue;
-}
-h2{
-    margin: 0;
 }
 h3{
     margin-top: 0;
@@ -29,10 +28,9 @@ h2:first-child{
 }
 
 header h1{
-    /* margin: 0; */
-    margin: 15px 0 0 0;
-    padding-bottom: 25px;
-    font-size: 38px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2.2em;
     color: white;
 }
 
@@ -47,35 +45,30 @@ nav{
 ul{
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
 ul:first-child{
-    margin: 0 auto;
     text-align: center;
 }
 
-ul:first-child li:nth-child(2){
+li.main-nav:nth-child(2){
     border-left: 2px solid black ;
     border-right: 2px solid black;
 }
 
 li.main-nav{
     display: inline-block;
-    padding: 0 13px;
-    margin: 12px 0;
+    padding: 12px 13px;
     font-size: 18px;
 }
-
 img{
     width: 100%;
 }
 div#info-div{
-    padding: 25px 80px;
+    padding: 5px 0;
+    margin: 0 80px;
 }
-p{
-    margin: 0;
-}
+
 p.content-text{
     font-size: 18px;
 }
