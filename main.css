@@ -6,6 +6,13 @@ header{
     text-align: center;
     background-color: #0051BB;
 }
+a#logo-style{
+    display: inline-block;
+    /* margin-left: 20px; */
+}
+a:visited{
+    color: blue;
+}
 h2{
     margin: 0;
 }
@@ -22,15 +29,16 @@ h2:first-child{
 }
 
 header h1{
-    margin: 4px 0 0 0;
+    /* margin: 0; */
+    margin: 15px 0 0 0;
     padding-bottom: 25px;
     font-size: 38px;
+    color: white;
 }
 
-h2 a{
+/* h2 a{
     color: rgba(83, 205, 179, 1);
-
-}
+} */
 nav{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -52,28 +60,27 @@ ul:first-child li:nth-child(2){
     border-right: 2px solid black;
 }
 
-nav ul li{
+li.main-nav{
     display: inline-block;
     padding: 0 13px;
-    margin: 7px 0;
+    margin: 12px 0;
     font-size: 18px;
 }
 
 img{
     width: 100%;
 }
-div#info_Div{
+div#info-div{
     padding: 25px 80px;
 }
 p{
     margin: 0;
 }
-p.content{
-    /* margin: 0; */
+p.content-text{
     font-size: 18px;
 }
 
-li.contentLi{
+li.content-li{
  padding-top: 0;
  margin: 0 17px;
  list-style: initial;
@@ -81,5 +88,6 @@ li.contentLi{
 
 footer{
 text-align: center;
-background-color:rgba(203,204,184,1);
+/* background-color: #6E4800; */
+background-color:rgba(0,0,0,.2);
 }
