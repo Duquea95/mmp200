@@ -9,6 +9,11 @@ header, footer, ul:first-child{
 li.main-nav, p.content-text, li.content-li{
     font-size: 1.125em;
 }
+
+li.content-li,p.content-text, footer{
+    line-height: 1.5em;
+}
+
 a#logo-style, li.main-nav{
     display: inline-block;
 }
@@ -24,12 +29,15 @@ header{
 a#logo-style{
     padding: 0.938em 0;
 }
+
 a:visited{
     color: blue;
 }
+
 h3{
     margin-top: 0.938em;
 }
+
 h3.h3-home{
     margin: 1.125em 0 0 0;
 }
@@ -64,17 +72,15 @@ li.main-nav{
     padding: 0.750em 0.813em;
     font-weight: bolder;
 }
+
 img{
     display: block;
     margin: 0 auto;
 }
+
 div#info-div{
     padding: 0.313em 0;
     margin: 0 5.000em;
-}
-
-p.content-text{
-    line-height: 1.5em;
 }
 
 li.content-li{
