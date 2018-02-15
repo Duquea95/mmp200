@@ -19,7 +19,7 @@ a#logo-style, li.main-nav{
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 header{
@@ -32,7 +32,7 @@ a#logo-style{
 }
 
 a:visited{
-    color: white;
+    color: #0051BB;
 }
 
 h3{
@@ -57,7 +57,6 @@ header h1{
 nav{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    background-color: black;
 }
 
 ul{
@@ -73,6 +72,8 @@ li.main-nav:nth-child(2){
 li.main-nav{
     padding: 0.750em 0.813em;
     font-weight: bolder;
+    font-size: 1.2em;
+    letter-spacing: .1em;
 }
 
 img{
@@ -84,6 +85,10 @@ div#info-div{
     padding: 0.313em 0;
     margin: 0 5.000em;
 }
+
+/* p{
+    font-size: Times, serif;
+} */
 
 li.content-li{
     padding-top: 0;
