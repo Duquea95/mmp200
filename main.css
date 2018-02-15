@@ -86,9 +86,9 @@ div#info-div{
     margin: 0 5.000em;
 }
 
-/* p{
-    font-size: Times, serif;
-} */
+p{
+    font-family: serif;
+}
 
 li.content-li{
     padding-top: 0;
