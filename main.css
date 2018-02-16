@@ -99,3 +99,30 @@ li.content-li{
 footer{
     background-color:rgba(0,0,0,.2);
 }
+
+@media (max-width: 320px) {
+
+    #logo-img{
+        width: 16em;
+    }
+
+    header h1{
+        font-size: 1.4em;
+    }
+
+    img{
+        max-width: 320px;
+    }
+
+    li.main-nav:nth-child(2){
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+     border-left: 0;
+     border-right: 0;
+    }
+
+    li.main-nav{
+        display: block;
+        /* width: inherit; */
+    }
+   }
