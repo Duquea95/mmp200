@@ -1,6 +1,3 @@
-/*  */
-/* Desktop & Laptop */
-/*  */
 body,h2,ul,p.footer-text, header h1{
     margin: 0;
 }
@@ -83,6 +80,7 @@ img{
     display: block;
     margin: 0 auto;
 }
+
 div#info-div{
     margin: 0 5.000em;
 }
@@ -102,12 +100,7 @@ footer{
     margin-top: 1.25em;
     padding: 1.25em 0;
 }
-@media (min-width: 768px) {
-}
 
-/*  */
-/* Mobile Design */
-/*  */
 @media (max-width: 320px) {
 
     #logo-img{
@@ -135,9 +128,5 @@ footer{
     li.main-nav{
         display: block;
         /* width: inherit; */
-    }
-
-    footer{
-        padding: 0 2.5em;
     }
    }
