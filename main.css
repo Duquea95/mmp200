@@ -102,7 +102,10 @@ footer{
     margin-top: 1.25em;
     padding: 1.25em 0;
 }
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
+    img{
+        max-width: 55em;
+    }
 }
 
 /*  */
