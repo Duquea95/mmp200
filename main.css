@@ -59,9 +59,10 @@ header h1{
 }
 
 nav{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid white;
+    /* border-bottom: 1px solid black; */
 }
+
 
 ul{
     list-style: none;
@@ -69,15 +70,15 @@ ul{
 }
 
 li.main-nav:nth-child(2){
-    border-left: 0.125em solid black ;
-    border-right: 0.125em solid black;
+    /* border-left: 0.125em solid black ;
+    border-right: 0.125em solid black; */
 }
 
 li.main-nav{
-    padding: 0.750em 0.813em;
+    padding: 0.750em 2em;
     font-weight: bolder;
     font-size: 1.2em;
-    letter-spacing: .1em;
+    /* letter-spacing: .1em; */
 }
 li.main-nav a{
     text-decoration: none;
@@ -125,6 +126,10 @@ footer{
     }
 }
 
+@media(min-width: 1600px) and (max-width: 2000px){
+
+}
+
 /*  */
 /* Mobile Design */
 /*  */
@@ -144,6 +149,9 @@ footer{
     #main-image{
         width: 100%;
     }
+    ul{
+        display: block;
+    }
 
     li.main-nav:nth-child(2){
      border-top: 2px solid black;
@@ -162,6 +170,27 @@ footer{
     }
 }
 
-/*  */
-/* Tablets */
-/*  */
+@media(min-width: 400px) and (max-width: 480px){
+    #logo-img{
+        width: 21em;
+    }
+    header h1{
+        font-size: 1.5em;
+    }
+}
+@media(min-width: 350px) and (max-width: 400px){
+    #logo-img{
+        width: 20em;
+    }
+    header h1{
+        font-size: 1.45em;
+    }
+}
+@media(min-width: 480px) and (max-width: 1024px){
+    div#info-div{
+        margin: 0 2.5em;
+    }
+    #logo-image{
+        width: 91%;
+    }
+}
