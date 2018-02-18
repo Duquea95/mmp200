@@ -25,17 +25,15 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
-header{
+header, a:visited, nav{
     background-color: #0051BB;
+}
+a#logo-style, h1{
+    color: white;
 }
 
 a#logo-style{
     padding: 0.938em 0;
-    color: white;
-}
-
-a:visited{
-    color: #0051BB;
 }
 
 h3{
@@ -51,12 +49,10 @@ h2:first-child{
 h1{
     padding-bottom: 0.625em;
     font-size: 2.45em;
-    color: white;
 }
 
 nav{
     border-top: 1px solid grey;
-    background-color: #0051BB;
 }
 
 ul{
