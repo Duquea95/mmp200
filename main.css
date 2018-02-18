@@ -84,7 +84,7 @@ img{
 }
 
 div#info-div{
-    margin: 0 3em;
+    margin: 0 3.6em;
 }
 
 p{
@@ -136,7 +136,7 @@ footer{
 /*  */
 /* Mobile Design */
 /*  */
-@media(min-width: 320px) and (max-width: 480px){
+@media(min-width: 320px) and (max-width: 789px){
     #logo-img{
         width: 16em;
     }
@@ -190,11 +190,11 @@ footer{
 /*  */
 /* Tablets */
 /*  */
-@media(min-width: 700px) and (max-width: 800px){
+@media(min-width: 700px) and (max-width: 883px){
     li.main-nav{
         padding: 0.750em 2em;
         font-weight: bolder;
-        font-size: 1.2em;
+        font-size: 1.25em;
     }
     div#info-div{
         margin: 0 2.5em;
